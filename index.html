@@ -1,0 +1,183 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>School Website</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+  <script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=Ulk1t-IVifvENTRzBW-eMCbmhCeu-VPYoFw1xBezpNWEkUriyFu_pqbT7joJ7ODGJIyN4BOsuJeAALFaqPm9dLEF20HqIFBSa2yzuS3OynQKP2My5O4Fr2n-oN3Ltp1CRTPn2MURwbXtKzL94GHdXtzqT4gjHSgLBp9Lj67v2dWMDhpqZrcLVwP0jjAQmhAo4rV5WFy6CpJ-_dOdtCd2Z9CdDuvuQ81WjMndc2W2SnPT9g-U-efEjAHvxy01OjuEFU2vM-GGnLOATNarehmmzYecHvLSI6asNyzjRXPh4eMrLdp9-Kwbi2OuyramjgYGYu7PvbuFVJsdZYLN86HZHEGjDGtPDfTS78_c3iIxYE_jTU5siur5gjzsBIGIyGey6Mzuf5GrV8amrfgwYWdWiQ5uidDhF7PovEjZVJBc6iUIP1KcRnPc5wy3L7YInQ_A4LCggxQiKfugi9JC8VSeCdOjv_bORseyPIVf4rfD0ycN3MrGRZOliZrpmAQlpGpCnivY_8DFTjynC3o540WajdakLR-c9H-xIosbfOWxlHe47qCHBq-PyveQVbutXFJx0mfy2_jtHr-WpT4um-iQpwh0AVNmMI759iMLqfOm7nVm7Mq2gB91-Cg2Yx2jY-xnb-BzV32zNrl33oWeXjNiLb6TcLVRUZTeyYLekpeb88kKNLI-AT5hT_oYMAbA4vf91nmAXKUS9lB0sLBFWR-KTc53sP6PfLN0xttn3iWFo0zAxR_lE_rdQDklOxqEcXFYZZQANtFexalrisLl5c3pAX6XdJ-PFNDfngXr4kiKqmNp-YTaCKPUSplWRd8FLCFUf7AulLWs4k8Go1N8h-MQQp2AUGPgAz-k4PMT2YoCiXQ2R11G-ATM0IdZZz7-ZoNx6OUTR2-cfHsE1CkPTK8WBDzL2BDa73N-lSXO6c8Ra1BReasrofCxaAM_MdHqxn74t0r-Se7dC7m7OOKBGoCtqpWj0gPqjs3kj-fv4AQzUzt8UUWZPYFEuU6RV6suqSX9l8GX-kaYrbCumGRUKw-y2FTRBNPSGCiaFPRh6dOu0o7Oyxj0pFKvsBjMVi6MUSWT1jxl2_QGb2rB8lLRpAJ9X79pPkMKxCrFOPu8_kI663-CWbqDMnBUbYbl-V1tVIj1ImBZeJXmQ12SVsgVWq_1a3sLCjQ9ERYXR3Q6aqm8CTeQ0t4MVkRB675HLUhXMFnFqnJO3c_3xePKReBWZItX0cKfPp3-ozlaTvLgq-uHiqglIsnFr75lnukgGZ7phsIjaI8FKnQ3EI6f0X9XdlPZ29m-vsGkYO7Nl5NQC_hp0x6reessTeVJlyx-rBogu2DZlOq5UUh8282IhHnaGZig82-lDHNffzi57j7KmIsUBJQxKe55kzBRa1ejNHaYjhVOnsexvVKQQHRAZpkbgKLov8UY47whjgbvSy0c5v22EvzKbtMcRBYxa_lXrPaSkr4M6DvCPTltIQAOjTwS9RWzopP1ZSFjm-UGXBaiTi5J4j6P2g5ziGcN8ReyEEysvuzi4DU7BtiLXCxRaruBKw52O9smoENKoMZ5HRZClN8wfA0zxvEi0Ja84X4woiSEVt3udypQ3VNYeHuldkzyFPF1bg" charset="UTF-8"></script><link rel="stylesheet" crossorigin="anonymous" href="https://gc.kis.v2.scr.kaspersky-labs.com/E3E8934C-235A-4B0E-825A-35A08381A191/abn/main.css?attr=aHR0cHM6Ly9kb2MtMGctYW8tZG9jcy5nb29nbGV1c2VyY29udGVudC5jb20vZG9jcy9zZWN1cmVzYy9nbGljNHA1bmJjcGN2c3BjOW5mNzg1OWtyNm4wNjcwbi91NWN2cGhnMDA4ZjZxMzdjOHY0Zmp2YnVjNjZydmM2Mi8xNjg1MjgyMDI1MDAwLzE1MTIzNDMyNDgwNDQ3MTEzNjg3LzA4NDMyNjM1ODY5NDY2NTg3MDEyLzFqVjBBalF2dldkbU56dXNxbVd3ZlhuMXlfMmNxX3FCRj9lPWRvd25sb2FkJmF4PUFEV0NQS0FtdVBhdjNldTJiZy1rN1ZTcmJIaW83cUVhZFZFWXRHeUlfLWsxaUswcUNNRm43U01uVENnMnNLYW5scWVYQjJmS3pzUGhDNUhNQlBjRnFOeXVKMGphMi1aY1RITVc4NndVNnEtWHZDYjhzV0IzWHlCeEVhRC1XMlFUcWgxR1hNME5WNFZXSGRveU5vc0VKUTVOeF9zNHFWdzhXV2pmQjV5ejFqMTdoN2FES0pnb2hSVUpqd2xOWEdqbFBNRGlPSk9Od2x1SFVMT3pWQ2lnS2tmRkJjVmRzTVpSX0ZlMk02NGhXci1uakJOdW5UUF94US1paFdjWWt0R0pBbHkxLXNZWmJrTWc4RHZrNjRobk9VdndMWEpKVEtiLUpIMmNNUE1YTmJiQXNwLWhzWjV4MkdYZkY1emlwNTJ5TjYwN0JXWkM2SHJaSDdoaFMxM0dvaDA5MkNZV0ZvQVIwTWYyZzVsaGxUcjNTOW9FTi1xSzFUcEcxZlFPNkMxSXFzUUltUkFPSlNmUlFGUS1NUUJkSFRVak15N2dpMGtQTndYTlJZSE1zVnlCa0t0SUlZNlpocHRBOFNlR3BONHNjbkhEX21ydnNYeDVKT2VqdU9ET0c0VDR1eHlMcWpjN1NnRm9aMThZSU5GdnVWQVVUNTRZa0tpa1gwOTRxZjJPQXFsemVrN0tNSlVYUWV5ZVF3SkxyNGlUZlM0S0pkUm5hXzlqczB2Q1lrN0tRNEx3RXBCQzFVUFZDRF9DeHlPbjNyZ1hUem1HZWhIbEhRejJwQTVWX2dtRGU1ZUxNa09kWFJRQlFtUjJ3clJWNlhKMW9DZ0VGSmFJZ08zYVllS2x2dUFnc0dESHNzQXp3SVJVTDZiVzFHa2szRnpPSk1qeWlaaFZQanFLMGlZVmFLS1loN252cWlXVUZ1M3Rvd0Vfak9WcmVQU2ZuNFdjbTFKYmZKYzBWYlVBcXVjRE9FQW9Jb3huaG1YMDV5dHNPbkdDLUZVUFBNcDlLcFRleTZHcWJhemE0ajh1OGg0LU9TbGF0dlduR1pmTjQzN3k0dS1Vemo1ZnJMMWprbDVFS1NyTnBDQWVZUnlxZTEtbTNzY0QzaG1MT2s0NjZXX1M0VHZaN0t6MkhyZWhhaUczdktPWC1qWWhoT2RLVWRWb2ZJUHloaGRwMzZySEVPb09fNVRZZUc5TmRBJnV1aWQ9NjkzZjE2OTQtMjg3MS00OTgyLWI1NzMtYzRiYmQ1ZjRjNTI0JmF1dGh1c2VyPTA"/><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <!--
+Navigation bar code here
+-->
+<nav class="navbar-inverse my_nav_bar">
+  <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Aditi Mahesh</a>
+  </div>
+
+  <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+          <li><a href="#schoolname">School Name</a></li>
+          <li><a href="#campuslife">Campus Life</a></li>
+          <li><a href="#achivements">Achivements</a></li>
+          <li><a href="#what'snew">What's new</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+      </ul>
+  </div>
+</nav>
+<iframe width="1000" height="550" src="https://www.youtube.com/embed/C7LeHlOiEo8" title="We are proud to serve 37 Nationalities" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<div class="container">
+  <h2 class="page-header" id="campuslife">Campus Life</h2>
+    <div class="travel_mainDiv">
+      <img src="ground.jpeg">
+      <h4 class="text-capitalize"><kbd>School Ground</kbd></h4>
+      <hr>
+<h5 class="text-success text-capitalize">It was established in 1988</h5>
+<p class="text-muted">
+  In the school ground many events are held. Football and other sports activites are held here
+</p>
+  <br><br>
+      <img src="bus.jpg">
+      <h4 class="text-capitalize"><kbd>Bus service</kbd></h4>
+      <hr>
+<h5 class="text-success text-capitalize">It provides students safe transportation</h5>
+<p class="text-muted">
+  OOEHS Fujairah offers transportation services. The school provides bus services to facilitate students.
+  </p>
+  <br><br>
+      <img src="entrance.jpeg">
+      <h4 class="text-capitalize"><kbd>School Entrance</kbd></h4>
+      <hr>
+<h5 class="text-success text-capitalize">The school Entrence</h5>
+<p class="text-muted">
+  When you enter the school the door will lead you to the reception.
+  </p>
+
+
+  <h2 class="page-header" id="achivements">School Achivements</h2>
+<div class="bg-primary movie_head" data-toggle="collapse" data-target="#school_achivement1">
+  CBSE grade 10 Board Results<i class="fa fa-sort-desc"></i>
+</div>
+
+<div id="school_achivement1" class="collapse">
+  <div class="achivement_text">
+    <img src="board results g10.jpg" class="img-responsive img-thumbnail">
+    <h5 class="text-success text-capitalize">Grade 10 Board exam toppers
+    <span class="glyphicon glyphicon-star"></span>
+    <span class="glyphicon glyphicon-star"></span>
+    <span class="glyphicon glyphicon-star"></span>
+    <span class="glyphicon glyphicon-star"></span>
+    <span class="glyphicon glyphicon-star"></span>
+</h5>
+<p>There are 7 world toppers from our school who have worked very hard.
+
+</p>
+    
+  </div>
+</div>
+
+<div class="bg-primary movie_head" data-toggle="collapse" data-target="#school_achivement2">
+  CBSE grade 12 Board results<i class="fa fa-sort-desc"></i>
+</div>
+
+<div id="school_achivement2" class="collapse">
+  <div class="achivement_text">
+    <img src="board result g12.jpg" class="img-responsive ing-thumbnail">
+    <h5 class="text-success text-capitalize">Grade 12 Board exam toppers
+    <span class="glyphicon glyphicon-star"></span>
+    <span class="glyphicon glyphicon-star"></span>
+    <span class="glyphicon glyphicon-star"></span>
+    <span class="glyphicon glyphicon-star"></span>
+    <span class="glyphicon glyphicon-star"></span>
+</h5>
+<p>The hard work of Grade 12 students has paid off
+</p>
+    
+</div>
+</div>
+
+<div class="bg-primary movie_head" data-toggle="collapse" data-target="#school_achivement3">
+  Cyber Security certified school<i class="fa fa-sort-desc"></i>
+</div>
+
+<div id="school_achivement3" class="collapse">
+  <div class="achivement_text">
+    <img src="online safety.jpg" class="img-responsive ing-thumbnail">
+    <h5 class="text-success text-capitalize">National Online safety Certified School
+    <span class="glyphicon glyphicon-star"></span>
+    <span class="glyphicon glyphicon-star"></span>
+    <span class="glyphicon glyphicon-star"></span>
+    <span class="glyphicon glyphicon-star"></span>
+    <span class="glyphicon glyphicon-star"></span>
+</h5>
+<p>Our school has been certified as 1 of the Online safety certified school.
+</p>
+  </div>
+
+
+  
+
+<h2 class="page-header" id="what'snew">What's New</h2>
+
+<ul class="list-group">
+
+  <li class="List-group-item list-group-item-success col-lg-12 col-md_12 col-sm-12 col-xs-12 enviourment">
+    <h4>Spell Well</h4>
+    <img src="Spell well.jpg" class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12">
+    <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12">The Spell Well series has a structured approach to the teaching and learning of spelling. Students are encouraged to use the Look, Say, Shape, Cover, Write, Check strategy to aid their learning of spelling.</p>
+  </li>
+</ul>
+
+<li class="List-group-item list-group-item-warning col-lg-12 col-md_12 col-sm-12 col-xs-12 enviourment">
+  <h4>NMTQ</h4>
+  <img src="nmtq.png" class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12">
+  <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12">NMTQ helps students to improve their Gk , It has questions on a specific topic given by the teacher.</p>
+</li>
+</ul>
+    
+    
+  <section id="contact">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3611.656396253343!2d56.34551807525665!3d25.147304977743158!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ef457d79da0c1a1%3A0xdd86d2bbe55c7796!2sOur%20Own%20English%20High%20School-Fujairah!5e0!3m2!1sen!2sae!4v1687084151306!5m2!1sen!2sae" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<hr>
+<img src="princeple.jpeg" class="img-responsive img-circle col-ig-3 col-md-3 col-sm-3 col-xs-4">
+<h3>Syed Tahir Ali</h3>
+
+        <div class="contact_1" >
+
+           <a href="mailto:majmundarhetal@gmail.com?Subject=Hi">
+               <h5><i class="fa fa-envelope"></i>&nbsp;&nbsp;info@ourown.school</h5>
+            </a> 
+
+            <a href="#"> 
+              <h5><i class="fa fa-instagram" ></i>&nbsp;&nbsp;https://www.instagram.com/ooehsfuj/?hl=en</h5>
+           </a> 
+       </div>
+
+       <a href="#"> 
+        <h5><i class="fa fa-phone-square" ></i>&nbsp;&nbsp;+971 (0) 9 222 4855</h5>
+     </a> 
+ </div>
+</section>
+
+</body>
+
+</html>
